@@ -38,19 +38,19 @@
         <img
           id="reveal2"
           class="comida1"
-          src="../static/img/pasta.jpg"
+          src="img/pasta.jpg"
           alt="mukumbari"
         />
         <img
           id="reveal2"
           class="comida2"
-          src="../static/img/ensalada.jpg"
+          src="img/ensalada.jpg"
           alt="lobatera"
         />
         <img
           id="reveal2"
           class="comida3"
-          src="../static/img/postre.jpg"
+          src="img/postre.jpg"
           alt="observatorio"
         />
       </div>
@@ -77,19 +77,19 @@
         <img
           id="reveal5"
           class="comida5"
-          src="../static/img/celia1.jpg"
+          src="img/celia1.jpg"
           
         />
         <img
           id="reveal5"
           class="comida6"
-          src="../static/img/celia2.jpg"
+          src="img/celia2.jpg"
           
         />
         <img
           id="reveal5"
           class="comida7"
-          src="../static/img/celia3.jpg"
+          src="img/celia3.jpg"
           
         />
       </div>

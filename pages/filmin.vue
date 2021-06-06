@@ -3,7 +3,7 @@
     <!--Logotipo Filmin -->
     <div class="container8">
       <div class="logo">
-        <img class="logotipo" src="../static/img/frame.png" />
+        <img class="logotipo" src="img/frame.png" />
       </div>
     </div>
 
@@ -11,7 +11,7 @@
     <div class="container9">
       <div class="intro">
         <video
-          src="../static/img/intro.mp4"
+          src="img/intro.mp4"
           autoplay
           controls
           loop
@@ -51,7 +51,7 @@
 
     <div class="container10">
       <section class="panel blue">
-        <img class="iphone" src="../static/img/iphoneipad.png" />
+        <img class="iphone" src="img/iphoneipad.png" />
         <div class="exposicion">
           <div class="tt">
           <b>Menú de navegación</b></div>
@@ -70,8 +70,8 @@
     <div class="container11">
       <section class="panel turqoise">
         <div class="junto">
-          <img class="iphone2" src="../static/img/inicio.png" />
-          <img class="iphone3" src="../static/img/hover.png" />
+          <img class="iphone2" src="img/inicio.png" />
+          <img class="iphone3" src="img/hover.png" />
         </div>
       </section>
     </div>
@@ -104,8 +104,8 @@
     <div class="container12">
       <section class="panel green">
         <div class="junto4">
-          <img class="iphone5" src="../static/img/genero.png" />
-          <img class="iphone6" src="../static/img/peli.png" />
+          <img class="iphone5" src="img/genero.png" />
+          <img class="iphone6" src="img/peli.png" />
         </div>
       </section>
     </div>
@@ -125,9 +125,9 @@
     <div class="container13">
       <section class="panel white">
         <div class="junto5">
-          <img class="iphone7" src="../static/img/meet.png" />
-          <img class="iphone8" src="../static/img/personajes.png" />
-          <img class="iphone9" src="../static/img/usuario.png" />
+          <img class="iphone7" src="img/meet.png" />
+          <img class="iphone8" src="img/personajes.png" />
+          <img class="iphone9" src="img/usuario.png" />
         </div>
       </section>
     </div>
@@ -181,9 +181,9 @@
     <div class="container15">
       <section class="panel x">
         <div class="junto12">
-        <img class="iphone12" src="../static/img/canales.png" />
-        <img class="iphone13" src="../static/img/buscador.png" />
-        <img class="iphone14" src="../static/img/recomendador.png" />
+        <img class="iphone12" src="img/canales.png" />
+        <img class="iphone13" src="img/buscador.png" />
+        <img class="iphone14" src="img/recomendador.png" />
         </div>
       </section>
     </div>

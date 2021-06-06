@@ -3,7 +3,7 @@
     <div class="container22">
       <h1 class="me"></h1>
       <div id="animate22" class="roll22">
-        <img id="reveal22" class="im" src="../static/img/pic.jpeg" />
+        <img id="reveal22" class="im" src="img/pic.jpeg" />
       </div>
       <div class="exposicion22">
         <div class="tit">
