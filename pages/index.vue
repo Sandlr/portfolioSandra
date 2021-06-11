@@ -38,19 +38,19 @@
         <img
           id="reveal2"
           class="comida1"
-          src="img/pasta.jpg"
+          src="img/pasta.png"
           alt="mukumbari"
         />
         <img
           id="reveal2"
           class="comida2"
-          src="img/ensalada.jpg"
+          src="img/ensalada.png"
           alt="lobatera"
         />
         <img
           id="reveal2"
           class="comida3"
-          src="img/postre.jpg"
+          src="img/postre.png"
           alt="observatorio"
         />
       </div>
@@ -77,19 +77,19 @@
         <img
           id="reveal5"
           class="comida5"
-          src="img/celia1.jpg"
+          src="img/celia1.png"
           
         />
         <img
           id="reveal5"
           class="comida6"
-          src="img/celia2.jpg"
+          src="img/celia2.png"
           
         />
         <img
           id="reveal5"
           class="comida7"
-          src="img/celia3.jpg"
+          src="img/celia3.png"
           
         />
       </div>
@@ -151,7 +151,7 @@ export default {
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
 
   font-size: 62px;
-  color: #a60e00;
+  color: rgb(122, 196, 241);
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -159,7 +159,7 @@ export default {
 .subtitle {
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 22px;
-  color: #526488;
+  color: rgb(245, 138, 67);
   margin-top: 20px;
   width: 700px;
   display: flex;
@@ -194,7 +194,7 @@ export default {
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
 
   font-size: 62px;
-  color: #a60e00;
+  color: rgb(245, 138, 67);
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -343,5 +343,215 @@ export default {
   -ms-transform: none;
   -o-transform: none;
   transform: none;
+}
+
+@media screen and (max-width: 600px) {
+
+//primer container
+
+  .container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.texto_principal {
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  
+}
+
+.title {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  font-size: 100px;
+  color: rgb(122, 196, 241);
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: grid;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+.subtitle {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  color: rgb(245, 138, 67);
+  margin-top: 100px;
+  width: 315px;
+  display: flex;
+  text-align: right;
+}
+
+.base {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  width: 310px;
+  color: #000000;
+  margin-top: 50px;
+}
+
+   //segundo container explicación
+
+   .container3 {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+  background-color: rgb(196, 231, 253);
+  justify-content: center;
+  padding-right: 1.5rem;
+}
+.texto_miniproject {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+  color: black;
+}
+
+.title_miniproject {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  font-size: 62px;
+  color: #fe6f35;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.base_miniproject {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  width: 260px;
+  color: black;
+}
+
+//container fotos knolling
+
+.container2 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  padding-bottom: 1rem;
+  .roll {
+    display: flex;
+    flex-direction: column;
+    .comida1 {
+      margin-top: 2rem;
+      margin-left: 3.5rem;
+      height: 45%;
+      width: 45%;
+    }
+    .comida2 {
+      margin-top: 2rem;
+      margin-left: 8.5rem;
+      height: 45%;
+      width: 45%;
+    }
+    .comida3 {
+      margin-top: 2rem;
+      margin-left: 3.5rem;
+      height: 45%;
+      width: 45%;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+//Primavera 
+.container4 {
+  
+  background-color: #fe6f35;
+ margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+  
+  justify-content: center;
+  padding-right: 1.5rem;
+}
+.texto_miniproject4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.title_miniproject4 {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  font-size: 62px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center
+  ;
+}
+
+.base_miniproject4 {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+ font-size: 14px;
+  width: 260px;
+ display: flex;
+ justify-content: center;
+ padding-left: 1.5rem;
+  color: #ffffff;
+}
+
+//fotos primavera
+
+.container5 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  padding-bottom: 1rem;
+  .roll5 {
+    display: flex;
+    flex-direction: column;
+    
+    .comida5 {
+      margin-top: 1rem;
+      height: 70%;
+      width: 70%;
+       margin-left: 5rem;
+    }
+    .comida6 {
+      margin-top: 3rem;
+      height: 70%;
+      width: 70%;
+       margin-left: 2rem;
+    }
+    .comida7 {
+      margin-top: 3rem;
+      height: 70%;
+      width: 70%;
+      margin-left: 5rem;
+    }
+  }
+}
+
+
 }
 </style>

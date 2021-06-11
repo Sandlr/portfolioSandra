@@ -3,7 +3,7 @@
     <div class="it">
       <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="Filmin">Filmin</NuxtLink>      
-      <NuxtLink to="About">About me</NuxtLink>
+      <NuxtLink to="About">About </NuxtLink>
     </div>
   </div>
 </template>
@@ -39,4 +39,24 @@
     padding:1rem;
     color:white ;
   }
+
+
+  @media screen and (max-width: 600px) {
+    
+    .menu{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
+
+    a{
+    
+    padding:2rem;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+}
 </style>

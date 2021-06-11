@@ -3,7 +3,7 @@
     <div class="container22">
       <h1 class="me"></h1>
       <div id="animate22" class="roll22">
-        <img id="reveal22" class="im" src="img/pic.jpeg" />
+        <img id="reveal22" class="im" src="img/pic.png" />
       </div>
       <div class="exposicion22">
         <div class="tit">
@@ -68,7 +68,7 @@ export default {
     display: flex;
     justify-content: space-evenly;
     .im {
-      width: 200px;
+      width: 160px;
     }
   }
 }
@@ -100,10 +100,49 @@ export default {
   flex-direction: column;
   text-align: left;
   padding-left: 4rem;
-  margin-top: 4rem;
+  margin-top: 0rem;
 
   .tit {
-    color: #a60e00;
+    color: #fe6f35;
   }
+}
+
+@media screen and (max-width: 600px) {
+
+.container22 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  padding-bottom: 1rem;
+  flex-direction: column;
+  .roll22 {
+    display: flex;
+    justify-content: space-evenly;
+    .im {
+      width: 150px;
+      
+    }
+  }
+}
+
+
+.exposicion22 {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 1rem;
+  margin-top: 4rem;
+  font-size: 12px;
+
+  .tit {
+    color: #fe6f35;
+  }
+}
+
+
 }
 </style>

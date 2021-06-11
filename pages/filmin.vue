@@ -12,7 +12,7 @@
       <div class="intro">
         <video
           src="img/intro.mp4"
-          autoplay
+          
           controls
           loop
           width="100%"
@@ -319,6 +319,7 @@ export default {
 }
 .title1 {
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+
   font-size: 24px;
   color: rgb(0, 0, 0);
   letter-spacing: 1px;
@@ -329,6 +330,7 @@ export default {
 
 .subtitle1 {
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  
   font-size: 15px;
   color: rgb(0, 0, 0);
   text-align: left;
@@ -355,6 +357,7 @@ export default {
   padding-top: 3rem;
   padding-left: 13rem;
   margin-bottom: 4rem;
+  font-weight: lighter;
 }
 
 .iphone {
@@ -385,10 +388,12 @@ export default {
   flex-direction: column;
   padding-right: 12rem;
   padding-left: 12rem;
+  
 }
 .textt {
   width: 700px;
   margin-top: -8rem;
+  
 }
 .exposicion11 {
   width: 100%;
@@ -456,12 +461,13 @@ export default {
   justify-content: left;
   padding-right: 13rem;
   margin-top: -18rem;
-  color: white;
+  color: rgb(241, 241, 241);
   padding-bottom: 6rem;
 }
 .textt3 {
-  width: 800px;
+  width: 780px;
   padding-left: 13rem;
+  font-weight: lighter;
 }
 
 .junto4 {
@@ -590,5 +596,402 @@ export default {
 
 .tt{
   color: rgb(71, 153, 119);
+  font-size: 18px;
 }
+
+
+@media screen and (max-width: 600px) {
+
+.container8 {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.logotipo {
+  width: 200px;
+}
+
+//intro
+.container9 {
+  margin: 0 auto;
+  min-height: 50vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  padding-right: 3rem;
+  padding-left: 2rem;
+  width: 100%;
+  flex-direction: column;
+}
+.intro {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.text {
+  width: 300px;
+  margin-top: -4rem;
+      padding-top: 110px;
+  
+}
+
+.title1 {
+  
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: left;
+   color:rgb(71, 153, 119);
+  
+}
+
+.subtitle1 {
+  
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding-bottom: 5rem;
+}
+
+
+//Proyecto
+.container10 {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;  
+  background: rgb(0, 0, 0);
+   
+  color: white;
+}
+
+.exposicion {
+  width: 510px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-right: 13rem;
+  font-size: 12px;
+  
+}
+
+.iphone {
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24rem;
+  
+  
+}
+
+.panel {
+  height: 100%;
+  width: 100%;
+}
+
+.panel.blue {
+  margin-bottom: 400px;
+  height: 320px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.container11 {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  flex-direction: column;
+  
+}
+.textt {
+  width: 300px;
+   display: flex; 
+  
+  font-size: 12px;
+  flex-direction: column;
+}
+.exposicion11 {
+  
+  text-align: left;  
+  display: grid; 
+  justify-content: center ;
+  align-items: center ; 
+  margin-bottom: 4rem;
+  margin-left: -1rem;
+ 
+  
+  
+}
+
+
+.junto {
+  display: grid;
+  
+  justify-content: center;
+  
+
+  
+}
+
+.iphone2 {
+  width: 500px;
+  display: grid;
+  justify-content: center;
+ margin-top: 2rem;
+
+  
+}
+.iphone3 {
+  width: 500px;
+   display: grid;
+  justify-content: center;
+  margin-top: -130px;
+  
+  
+}
+
+.panel {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.panel.turqoise {  
+  
+  display: grid;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+//peliculas y series
+
+
+.container12 {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  flex-direction: column;
+}
+.exposicion12 {
+  text-align: left;  
+  display: grid; 
+  justify-content: center ;
+  align-items: center ; 
+  margin-bottom: 4rem;
+  margin-left: -6rem;
+ 
+}
+.textt3 {
+  margin-top: 4rem;
+  width: 350px;
+   display: grid; 
+  padding-left: 6rem;
+  font-size: 12px;
+  
+  flex-direction: column;
+  color: rgb(241, 241, 241);
+}
+
+.junto4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.iphone5 {
+  width: 360px;
+  margin-top: 6rem;
+  margin-right: 2rem;
+  
+}
+.iphone6 {
+  width: 360px;
+  margin-top: -4rem;
+}
+
+.panel.green {  
+  
+  display: grid;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+
+//Meet personajes usuario
+
+.panel.white {
+  height: 100%;
+  width: 100%;
+}
+
+.container13 {
+  
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  
+}
+.exposicion13 {
+  text-align: left;  
+  display: grid; 
+  justify-content: center ;
+  align-items: center ; 
+  margin-bottom: 2rem;
+  margin-top: -8rem;
+}
+.textt4 {
+  
+   margin-top: 0rem;
+  width: 290px;
+   display: grid; 
+  
+  font-size: 12px;
+  flex-direction: column;
+  margin-left: 2rem;
+ 
+}
+.textt5 {
+  width: 280px;
+   margin-top: -2rem;
+  
+   display: grid; 
+  
+  font-size: 12px;
+  flex-direction: column;
+  text-align: right;
+  margin-left: 3rem;
+  color: rgb(71, 153, 119);
+  
+}
+.textt6 {
+  
+   margin-top: -8rem;
+  width: 290px;
+   display: grid; 
+  
+  font-size: 12px;
+  flex-direction: column;
+  margin-right: 4rem;
+ 
+}
+
+.junto5 {
+   display: grid;
+  
+  justify-content: center;
+  
+}
+
+.iphone7 {
+  width: 380px;
+  margin-top: 9rem;
+  display: grid;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  justify-content: center;
+  
+  
+ 
+  
+}
+.iphone8 {
+  width: 380px;
+  margin-top: 0rem;
+  display: grid;
+  justify-content: center;
+  margin-left: 0rem;
+  margin-right: 0rem;
+   
+}
+.iphone9 {
+  width: 380px;
+  margin-top: 0rem;
+  display: grid;
+  justify-content: center;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  
+}
+.panel.white {  
+  
+  display: grid;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+//canales colecciones
+
+.panel.x {
+  height: 100%;
+  width: 100%;
+}
+
+.container15 {
+   margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  flex-direction: column;
+}
+
+.junto12 {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.iphone12 {
+  width: 500px;
+  margin-left: -1rem;
+}
+.iphone13 {
+  width: 500px;
+  margin-left: -1rem;
+}
+.iphone14 {
+  width: 500px;
+  margin-left: -1rem;
+}
+
+}
+
+
+
+
+
+
+
 </style>
